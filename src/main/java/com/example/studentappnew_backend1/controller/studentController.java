@@ -22,5 +22,12 @@ public class studentController {
     }
 
 
+    @GetMapping("/home")
+    public String Home(){
+        return  "Welcome to Home";
+    }
+
+
+
 
 }
